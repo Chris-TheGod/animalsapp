@@ -1,3 +1,3 @@
-export const AnimalShow = () => {
-  return <div>AnimalShow</div>;
+export const AnimalShow = ({ type }) => {
+  return <div>{type}</div>;
 };
